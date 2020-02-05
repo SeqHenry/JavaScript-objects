@@ -1,0 +1,44 @@
+Html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script src="object.js">
+        
+    </script>
+    
+</body>
+</html>
+****************************************************************
+Javascript:
+
+/**********************************************************************************************************/
+
+                                         //Creating Objects in JS
+
+/**********************************************************************************************************/
+
+
+//These are the two common ways to create objects:
+//Object Literals:The most common and, indeed, the easiest way to create objects is with the object literal described here
+
+
+
+var myBooks = {};  //This is an empty object initialized using the object literal notation
+
+
+var mango = {      // This is an object with 4 items, again using object literal
+color: "yellow",
+shape: "round",
+sweetness: 8,
+howSweetAmI: function () {
+console.log("Hmm Hmm Good");
+}
+}
+
+console.log('Color of my object is: '+mango.color+"\n"+'shape: '+mango.shape+"\n"+'sweetness: '+mango.sweetness)
